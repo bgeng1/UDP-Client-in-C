@@ -8,6 +8,7 @@ Specifications:
  - Output the result of the ping to standard output with 3 fields: the server address, ping number, round trip time (rtt) e.g. "Ping to 127.0.0.1, seq = 1, rtt: 120ms"
  - usage: $PingClient \<host\> \<port\> 
  
-  where host = IP of the system running the client
+  where:
+  host = IP of the system running the client
   
   port = port number to use for communication
